@@ -16,7 +16,7 @@ function ajax_get(url, callback) {
 }
 
 function setBG() {
-	var url = 'https://www.gstatic.com/culturalinstitute/tabext/imax.json';
+	var url = 'https://www.gstatic.com/culturalinstitute/tabext/imax_2_1.json';
 	ajax_get(url, function(err, data) {
 		if (err) {
 			console.log('We\'ve had a problem');
